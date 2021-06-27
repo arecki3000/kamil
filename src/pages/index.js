@@ -9,8 +9,10 @@ import IndexImage1 from "../images/index_image1.png";
 import IndexImage2 from "../images/index_image2.png";
 import Logo from "../images/Logo.png";
 import Check from "../images/icons/check_icon.svg";
-import Button from 'react-bootstrap/Button';
 import { Link } from "gatsby";
+import TextElement from "../components/TextElement"
+import StyledButton from "../components/StyledButton"
+import BorderContainer from "../components/BorderContainer"
  
 const StylePaddingZero = {
   padding: 0,
@@ -46,26 +48,6 @@ const StyledImage = styled(Image)`
   }
 `
 
-const TextElement = styled.div`
-  font-size: ${props => props.size ? props.size : "18px"};
-  font-weight: ${props => props.bold ? "bold" : "normal"};
-  padding: ${props => props.padding ? props.padding : "0"};
-  margin: ${props => props.margin ? props.margin : "0"};
-  line-height: ${props => props.height ? props.height : 'normal'};
-
-  @media (max-width: 922px) {
-    text-align: ${props => props.center ? "center" : "left"};
-    padding: 30px;
-  }
-`
-const BorderContainer = styled(Row)`
-  width: 100%;
-  border-top: 1px solid #E4572E;
-  border-bottom: 1px solid #E4572E;
-  display: flex;
-  padding: 30px 0;
-  margin: ${props => props.margin ? props.margin : "0"};
-`
 const OfferElement = styled.div`
   display: flex;
   align-items: center;
@@ -74,24 +56,6 @@ const OfferElement = styled.div`
 
   @media (max-width: 922px) {
     margin: 0;
-  }
-`
-const StyledButton = styled.button`
-  height: ${props => props.height ? props.height : "52px"};
-  width: ${props => props.width ? props.width : "auto"};
-  border: 1px solid #E4572E;
-  background-color: #E4572E;
-  color: #fefefe;
-  border-radius: 26px;
-  transition: all .2s cubic-bezier(.47,0,.74,.71);
-  :hover {
-    background-color: #fefefe;
-    color: #E4572E;
-  };
-
-  @media (max-width: 922px) {
-    display: block;
-    margin: 0 auto;
   }
 `
 
