@@ -9,14 +9,15 @@ import infoIcon from "../images/icons/info_icon.svg";
 import phoneIcon from "../images/icons/phone_icon.svg";
 import locationIcon from "../images/icons/location_icon.svg";
 import emailIcon from "../images/icons/email_icon.svg";
+import FooterImage from "../images/footer_image.png";
 
 const CustomContainer = styled(Container)`
   background-color: #003049;
-
   padding: 20px 100px;
   @media (max-width: 922px) {
     padding: 20px 15px;
   }
+
 `;
 
 const FooterText = styled.div`

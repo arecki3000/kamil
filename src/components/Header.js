@@ -11,16 +11,15 @@ const NavBarLink = styled(Link)`
   color: #252422;
   white-space: nowrap;
   margin: 0 20px;
-  line-height: 30px;
+  line-height: 50px;
   font-size: 18px;
   text-transform: uppercase;
   :hover {
     color: #e4572e;
   }
-  .active {
-    text-decoration: underline;
+  @media (max-width: 922 px) {
+    line-height: 50px;
   }
-  
   }
 `;
 
@@ -39,7 +38,7 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto" align="center">
             <Nav.Item>
               <NavBarLink to="/oferta" activeClassName="active">
                 Oferta
