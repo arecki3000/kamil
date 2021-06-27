@@ -1,7 +1,7 @@
-import React from "react";
-
-const Reakomendacje = () => {
-  return <div>Reakomendacje</div>;
+import * as React from "react";
+import Layout from "../components/Layout";
+const Rekomendacje = () => {
+  return <Layout>=Rekomendacje</Layout>;
 };
 
-export default Reakomendacje;
+export default Rekomendacje;

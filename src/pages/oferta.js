@@ -1,7 +1,7 @@
-import React from "react";
-
+import * as React from "react";
+import Layout from "../components/Layout";
 const Oferta = () => {
-  return <div>Oferta</div>;
+  return <Layout>Oferta</Layout>;
 };
 
 export default Oferta;

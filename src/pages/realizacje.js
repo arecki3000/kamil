@@ -1,7 +1,7 @@
-import React from "react";
-
+import * as React from "react";
+import Layout from "../components/Layout";
 const Realizacje = () => {
-  return <div>Realizacje</div>;
+  return <Layout>Realizacje</Layout>;
 };
 
 export default Realizacje;
