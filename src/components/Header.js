@@ -30,11 +30,6 @@ const CustomContainer = styled(Container)`
     padding: 40px 140px;
 `;
 
-const ContainerStyle = {
-  maxWidth: "100vw",
-  margin: "0 140px",
-};
-
 const Header = () => {
   return (
     <CustomContainer fluid="md">
