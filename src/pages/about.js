@@ -41,8 +41,8 @@ const About = () => {
           <TextElement bold margin="30px 0 50px 0" size="24px" align="center" style={StyleCustomText}>O NAS</TextElement>
           <BorderContainer style={StyleCustomBorder}>
           <Row style={StyleMarginZero}>
-            <Col md={12} lg={5}>
-              <Image fluid src={Placeholder} />
+            <Col className="text-center" md={12} lg={5}>
+              <Image  fluid src={Placeholder} />
             </Col>
             <Col md={12} lg={7}>
               <TextElement margin="0 0 30px 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</TextElement>
@@ -50,8 +50,8 @@ const About = () => {
             </Col>
           </Row>
           <Row style={StyleMarginZero}>
-            <Col md={12} lg={{span:5, order: 12}}>
-              <Image fluid src={Placeholder} />
+            <Col className="text-center" md={12} lg={{span:5, order: 12}}>
+              <Image  fluid src={Placeholder} />
             </Col>
             <Col md={12} lg={{span :7, order: 1}}>
               <TextElement margin="0 0 30px 0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</TextElement>
